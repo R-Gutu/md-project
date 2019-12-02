@@ -1,7 +1,7 @@
 .container-fluid {
   max-width: 1000px;
 }
-@media (min-width:1px) and (max-width: 550px){
+@media (min-width:1px) and (max-width: 830px){
   #carousel-example-2{
     margin-top:100px;
   }
@@ -9,4 +9,12 @@
     width:100%;
     height:200px;
   }
+}
+@media (max-width:550px){
+  .zero{
+    padding: 0px;
+  }
+}
+.btn{
+  border:2px solid white;
 }
