@@ -9,10 +9,11 @@ import 'bootstrap';
 
 // Material Design Bootstrap
 // import '../vendors/mdb/js/mdb';
-import 'mdbootstrap';
+// import 'mdbootstrap';
 
 // Fontawesome 5
 import './fa';
 
 
-console.log('dsfds');
+import './components/header/header';
+import './components/footer/footer';
