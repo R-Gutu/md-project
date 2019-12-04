@@ -7,6 +7,21 @@ import footerTemplate from '../../templates/footer.hbs';
 
 var footerContainer = document.getElementById('footer-hbs');
 
+var footerLinks = [{
+  label: 'CONTACT US',
+  url: '#',
+},
+{
+  label: 'PRIVACY POLICY',
+  url: '#',
+},
+{
+  label: 'TERMS AND CONDITIONS',
+  url: '#',
+},
+];
+
+
 if (footerContainer) {
-  footerContainer.innerHTML = footerTemplate({});
+  footerContainer.innerHTML = footerTemplate({ footerLinks });
 }

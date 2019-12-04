@@ -1,4 +1,4 @@
-.container-fluid {
+.home-max {
   max-width: 1000px;
 }
 @media (min-width:1px) and (max-width: 830px){
@@ -14,7 +14,14 @@
   .zero{
     padding: 0px;
   }
+  .models-height{
+    height:250px;
+  }
 }
 .btn{
   border:2px solid white;
+}
+.plp{
+  margin-top:100px;
+  padding:0;
 }
