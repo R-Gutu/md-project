@@ -1,3 +1,4 @@
+
 // jQuery
 import 'jquery';
 
@@ -17,3 +18,4 @@ import './fa';
 
 import './components/header/header';
 import './components/footer/footer';
+import './components/readMore';

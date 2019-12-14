@@ -7,10 +7,13 @@ $fa-font-path: "~font-awesome/fonts";
 
 
 @import "./components/header";
-
+@import "./plp.scss";
 @import "./components/layout";
 @import "./components/footer";
 
 body{
     background-color: #131313;
+}
+.row{
+    width: inherit;
 }
